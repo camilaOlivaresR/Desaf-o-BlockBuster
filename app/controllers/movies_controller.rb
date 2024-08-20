@@ -64,8 +64,11 @@ class MoviesController < ApplicationController
       @movie = Movie.find(params[:id])
     end
 
+    def set_clients
+      @clients = Client.all.pluck :name, :id
+    end
     # Only allow a list of trusted parameters through.
     def movie_params
-      params.require(:movie).permit(:name)
+      params.require(:movie).permit(:name, :client_id)
     end
 end

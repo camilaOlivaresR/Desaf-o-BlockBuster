@@ -25,7 +25,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_08_20_220543) do
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.bigint "client_id", null: false
+    t.bigint "client_id"
     t.index ["client_id"], name: "index_movies_on_client_id"
   end
 
