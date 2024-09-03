@@ -21,4 +21,13 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* Deploy en Render
+
+![deploy](/app/assets/images/cap1.png)
+![deploy](/app/assets/images/cap2.png)
+![deploy](/app/assets/images/cap3.png)
+![deploy](/app/assets/images/cap4.png)
+![deploy](/app/assets/images/cap5.png)
+![deploy](/app/assets/images/cap6.png)
+![deploy](/app/assets/images/cap7.png)
+
